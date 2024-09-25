@@ -1,0 +1,42 @@
+.filtered-image:hover{
+   animation:InvertAnimation 2s forwards;
+}
+@keyframes InvertAnimation{
+    from{
+    filter:invert(0%);
+    }
+    to{
+        filter:invert(100%);
+    }
+}
+img{
+    width:250px;
+    height:250px;
+}
+.TV{
+    background-image: url(https://i.pinimg.com/originals/89/5c/e7/895ce751ba0379700381d17a67086931.gif);
+}
+.T{
+    height:150%;
+background-color:blue;
+color:yellow;
+}
+.TVlist{
+    background-color:green;
+    color:yellow;
+}
+.index{
+    background-color:lightskyblue;
+}
+a{
+    font-style:italic;
+}
+.TVfav{
+    color:cyan;
+}
+.J{
+    background-color:red;
+}
+p{
+    color:blue;
+}
